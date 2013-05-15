@@ -1,0 +1,11 @@
+[
+{"name":"MY WORKS 01","thumb":{"src":"img/assets/work_thumb0.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 02","thumb":{"src":"img/assets/work_thumb1.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 03","thumb":{"src":"img/assets/work_thumb2.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 04","thumb":{"src":"img/assets/work_thumb3.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 05","thumb":{"src":"img/assets/work_thumb4.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 06","thumb":{"src":"img/assets/work_thumb5.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 07","thumb":{"src":"img/assets/work_thumb6.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 08","thumb":{"src":"img/assets/work_thumb7.jpg", "width":160, "height":160}},
+{"name":"MY WORKS 09","thumb":{"src":"img/assets/work_thumb8.jpg", "width":160, "height":160}}
+]
