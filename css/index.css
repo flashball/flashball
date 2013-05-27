@@ -131,7 +131,7 @@ a:active {
 #header.wrap.clearfix
 ============================*/
 #header{
-	width: 220px;
+	width: 250px;
 	min-height: 750px;
 	text-align: center;
 	position: fixed;
@@ -143,11 +143,24 @@ a:active {
 }
 
 #header h1{
-	margin: 100px 0 10px;
+	margin: 60px 0 45px;
 }
 /*============================
 #menubtn
 ============================*/
+#Lang-btn ul{
+	width: 100%;
+	/*padding: 100px 0 0 0;*/
+}
+#Lang-btn li{
+	float: left;
+	margin: 110px 0 0 0;
+	width: 50%;
+	font-size: 70%;
+	/*color: #ffffff;*/
+	padding: 10px 0 0;
+	color: #314587;
+}
 #menubtn{
 	display: none;
 }
@@ -169,7 +182,7 @@ a:active {
 ============================*/
 #gnavi{
 /*	float: right;
-*/	padding: 23px 0; 
+*/	padding: 15px 0 20px; 
 }
 
 #gnavi ul li{
@@ -189,6 +202,14 @@ a:active {
 	background-color: rgb(0, 102, 153);
 	color: #ffffff;
 	text-decoration: none;
+}
+ul #Social-navi{
+	width: 100%;
+}
+#Social-navi li{
+	float: left;
+	width: 25%;
+	margin-bottom: 0;
 }
 
 /*============================
@@ -273,7 +294,7 @@ a:active {
 #news.wrap.body.clearfix
 ============================*/
 #content{
-	margin-right: 220px;
+	margin-right: 250px;
 }
 article{
 	width: 26%;
@@ -285,7 +306,7 @@ article{
 	width: 100%;
 	margin: 0 auto 30px;
 	padding: 50px 0 0 0;
-	border-top: rgb(0, 102, 153) solid 3px;
+	border-top: rgb(0, 102, 153) solid 1px;
 	border-bottom: rgb(218, 218, 218) solid 1px;
 	background:#fdffff;
 }
@@ -343,6 +364,7 @@ article{
 	width: 100%;
 	margin: 0 auto;
 	padding: 50px 0 0 0;
+	border-top: rgb(0, 102, 153) solid 1px;
 	border-bottom: rgb(218, 218, 218) solid 1px;
 	background:#fdffff;
 }
@@ -372,16 +394,19 @@ article{
 #totop{
 /*	width: 100%;
 */	text-align: center;
-	margin:30px 220px 30px 0;
+	margin:30px 250px 30px 0;
 	letter-spacing:0.1em;}
 
 /*============================
 #footer.clearfix
 ============================*/
 #footer{
-/*	width: 100%;
-	margin-right: 220px;*/
-}
+	text-align: center;
+	/*width: 100%;*/
+	margin:50px 250px 0 0;
+	padding:30px 0; 
+	border-top: rgb(218, 218, 218) solid 1px;
+	background:#fdffff;}
 #footer ul{
 /*	float: right;
 */}
@@ -389,16 +414,24 @@ article{
 /*	float: left;*/
 }
 /*============================
-#footer_right.clearfix
+#Social.clearfix
 ============================*/
-#footer_right{
-	position: fixed;
+#Social{
+/*	position: fixed;
 	bottom: 0;
-	right: 0;
-	width: 220px;
+	right: 0;*/
+	width: 100%;
+	margin: 0 auto 30px;
+	padding: 50px 0 0 0;
+	border-top: rgb(0, 102, 153) solid 1px;
+	border-bottom: rgb(218, 218, 218) solid 1px;
+	background:#fdffff;
 	text-align: center;
 }
-#footer_right li{
+#Social ul{
+	margin-bottom: 100px;
+}
+#Social li{
 	float: left;
 	width: 25%;
 }
@@ -415,6 +448,30 @@ article{
 ============================*/
 #copyright{
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* for note/tablet */
@@ -464,8 +521,8 @@ article{
 #header_body{
 }
 
-#header h1{
-	margin: 100px 0 10px;
+#header_body h1{
+	margin: 60px 0 10px;
 }
 /*============================
 #menubtn
@@ -710,9 +767,9 @@ article{
 /*	float: left;*/
 }
 /*============================
-#footer_right.clearfix
+#Social.clearfix
 ============================*/
-#footer_right{
+#Social{
 	display: none;
 	position: fixed;
 	bottom: 0;
@@ -720,7 +777,7 @@ article{
 /*	width: 220px;*/
 	text-align: center;
 }
-#footer_right li{
+#Social li{
 	float: left;
 	width: 25%;
 }
